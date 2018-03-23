@@ -1,6 +1,6 @@
 {
   "name": "wepy-com-loadings",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于Wepy开发的微信小程序loading加载动画组件",
   "main": "src/loadings.wpy",
   "scripts": {
