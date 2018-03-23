@@ -28,7 +28,7 @@
 
 <script>
   import wepy from 'wepy'
-  import Loadings from "../loadings"
+  import Loadings from "wepy-com-loadings"
   export default class Index extends wepy.page {
     config = {
       navigationBarTitleText: 'Loadings'
