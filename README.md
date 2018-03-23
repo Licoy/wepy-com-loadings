@@ -28,4 +28,4 @@ components = {
 type | 1 | String | 否 | 1-10个loading动画ID依次类推
 
 ## 展示
-![https://github.com/Licoy/wepy-com-loadings/blob/master/example/show.gif?raw=true]
+![image](https://github.com/Licoy/wepy-com-loadings/blob/master/example/show.gif?raw=true)
