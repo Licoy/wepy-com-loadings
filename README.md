@@ -7,7 +7,7 @@
 npm i wepy-com-loadings
 ```
 ## 使用
-```
+```javascript
 <template>
   <view>
     <Loadings1 type="1"/>
