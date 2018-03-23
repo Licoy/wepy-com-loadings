@@ -1,0 +1,13 @@
+{
+  "description": "基于Wepy开发的微信小程序loading加载动画组件",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram",
+  "appid": "touristappid",
+  "projectname": "wepy-com-loading",
+  "miniprogramRoot": "./dist"
+}
