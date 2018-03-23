@@ -2,17 +2,33 @@
   "name": "wepy-com-loadings",
   "version": "0.0.1",
   "description": "基于Wepy开发的微信小程序loading加载动画组件",
-  "main": "dist/app.js",
+  "main": "src/loadings.wpy",
   "scripts": {
     "dev": "wepy build --watch",
     "build": "cross-env NODE_ENV=production wepy build --no-cache",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "licoy <licoycn@gmail.com>",
+  "author": "licoy",
+  "email": "licoycn@foxmail.com",
+  "homepage": "https://github.com/Licoy/wepy-com-loadings#readme",
+  "bugs": {
+    "url": "https://github.com/Licoy/wepy-com-loadings/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "wepy": "^1.6.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Licoy/wepy-com-loadings.git"
+  },
+  "keywords": [
+    "小程序",
+    "微信小程序",
+    "wepy",
+    "wepyjs",
+    "loadings"
+  ],
   "devDependencies": {
     "babel-eslint": "^7.2.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
