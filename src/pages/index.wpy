@@ -1,17 +1,21 @@
 <style lang="less">
 </style>
 <template>
-  <view class="container">
-    Hello world
+  <view>
+    <view>22</view>
+    <Loadings/>
   </view>
 </template>
 
 <script>
   import wepy from 'wepy'
-
+  import Loadings from "../loadings"
   export default class Index extends wepy.page {
     config = {
       navigationBarTitleText: 'test'
+    }
+    components = {
+      Loadings
     }
     onLoad() {
       console.log('onLoad')

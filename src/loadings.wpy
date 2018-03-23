@@ -1,0 +1,41 @@
+<template>
+    <view class="loadings-1">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-2">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-3">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-4">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-5">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-6">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-7">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-8">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-9">
+        <view class="loadings"/>
+    </view>
+    <view class="loadings-10">
+        <view class="loadings"/>
+    </view>
+</template>
+<script>
+    import wepy from 'wepy';
+    export default class Loadings extends wepy.component {
+
+    }
+</script>
+<style lang="less">
+@import "./loadings.less";
+</style>
