@@ -6,20 +6,22 @@
 ```
 npm i wepy-com-loadings
 ```
-## 引用
-```
-import Loadings from "wepy-com-loadings"
-
-components = {
-  Loadings1:Loadings,
-  Loadings2:Loadings
-}
-```
-
 ## 使用
 ```
-<Loadings1 type="1"/>
-<Loadings2 type="2"/>
+<template>
+  <view>
+    <Loadings1 type="1"/>
+    <Loadings2 type="2"/>
+  </view>
+</template>
+import wepy from 'wepy'
+import Loadings from "wepy-com-loadings"
+export default class Index extends wepy.page {
+  components = {
+    Loadings1:Loadings,
+    Loadings2:Loadings
+  }
+}
 ```
 
 ## 属性值
